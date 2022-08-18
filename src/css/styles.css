@@ -21,10 +21,94 @@ body {
 li {
   list-style: none;
 }
-.country-item{
-  display: flex;
-  align-items: center;
+.single-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
 }
-.counrty-name{
-  margin-left: 10px;
+
+.image {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.counties-name {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.country-property {
+  font-weight: 700;
+}
+
+.country-name {
+  font-size: 24px;
+  line-height: 10px;
+}
+
+.country-info-item {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+/* * * * * * * * * * */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+.gallery {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.photo-card {
+  width: 350px;
+  height: 300px;
+  box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.info {
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.info {
+  margin: 0;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.info-item:not(:last-child) {
+  margin-right: 5px;
+}
+
+.image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin: 0;
+  margin-bottom: 10px;
 }
